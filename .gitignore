@@ -1,0 +1,22 @@
+node_modules/
+.expo/
+dist/
+web-build/
+.DS_Store
+
+# Environment — never commit real credentials
+.env
+.env.local
+.env.production
+
+# EAS local builds
+ios/
+android/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
