@@ -1,0 +1,8 @@
+[build]
+  command = "npm install --legacy-peer-deps && npm install --legacy-peer-deps react-native-safe-area-context react-native-screens expo-linking @react-navigation/native @react-navigation/native-stack @opentelemetry/api && npx expo export --platform web"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
